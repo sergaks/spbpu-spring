@@ -1,0 +1,10 @@
+.idea
+.classpath
+.project
+.settings
+*.log
+.externalToolBuilders
+*~
+*.class
+target
+/bin/
