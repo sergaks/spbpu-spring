@@ -26,7 +26,7 @@
 3. Add installed Tomcat to Servers view in Spring Tool Suite
 4. Clone this repository to any folder and import it in STS as File->Import->Existing Maven Project
 
-#### Data base notice:
+#### Database notice:
 Currently default data source is embedded HSQL DB which is initialized during application start, so no additional settings required.
 
 ###Usefull links:
