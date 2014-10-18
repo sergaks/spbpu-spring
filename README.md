@@ -27,7 +27,7 @@
 4. Clone this repository to any folder and import it in STS as File->Import->Existing Maven Project
 
 #### Data base notice:
-Currently default data source is embedded HSQL DB, which is initialized during application start, so no additional setting are required.
+Currently default data source is embedded HSQL DB which is initialized during application start, so no additional settings required.
 
 ###Usefull links:
 * Spring documentation http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle 
