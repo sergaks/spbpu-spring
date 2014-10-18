@@ -17,7 +17,7 @@ public interface TeacherDao {
 	
 	// TODO get teachers by education level
 	
-	// TODO get teachers by speciality
+	// TODO get teachers by specialty
 	
 	// TODO get amount of teachers
 	

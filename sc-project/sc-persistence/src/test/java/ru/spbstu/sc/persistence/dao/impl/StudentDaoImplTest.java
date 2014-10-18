@@ -2,6 +2,8 @@ package ru.spbstu.sc.persistence.dao.impl;
 
 import static org.junit.Assert.*;
 
+import java.util.List;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,5 +26,15 @@ public class StudentDaoImplTest {
 		assertNotNull(student);
 		assertEquals(1, student.getId());
 		assertEquals("Ivan", student.getFirstName());
+	}
+	
+	@Test
+	public void testGetStudentsWithNames() {
+		List<Student> students = studentDao.getStudentsWithNames();
+		assertNotNull(students);
+		assertTrue(students.size() > 0);
+		assertNotEquals(students.get(0).getId(), 0);
+		assertNotNull(students.get(0).getFirstName());
+		assertNotNull(students.get(0).getLastName());
 	}
 }
