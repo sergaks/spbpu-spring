@@ -1,0 +1,8 @@
+<table class="table table-striped">
+	<tr>
+		<td>Teacher Name</td>
+	</tr>
+	<tr ng-repeat="teacher in teacherCtrl.teachers">
+		<td><a href="#{{teacher.id}}"> {{teacher.firstName}} {{teacher.lastName}}</a></td>
+	</tr>
+</table>

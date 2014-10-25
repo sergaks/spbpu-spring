@@ -22,6 +22,7 @@
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="<c:url value="/"/>">Home</a></li>
 					<li><a href="<c:url value="/students"/>">Students</a></li>
+					<li><a href="<c:url value="/teachers"/>">Teachers</a></li>
 				</ul>
 
 				<form class="navbar-form navbar-right" role="form">

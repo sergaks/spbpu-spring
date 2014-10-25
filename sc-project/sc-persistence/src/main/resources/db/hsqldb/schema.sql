@@ -61,7 +61,7 @@ CREATE TABLE departments (
 
 CREATE TABLE teachers (
   teacher_id INT NOT NULL,
-  department_id INT NOT NULL,
+  department_id INT,
   position VARCHAR(45) NULL,
   PRIMARY KEY (teacher_id));
 
