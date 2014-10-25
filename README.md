@@ -28,10 +28,10 @@
 
 ###Getting started with sc-project
 1. Install latest <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK 8 </a>
-1. Install latest version of Spring Tool Suite: http://spring.io/tools
-2. Install Apache Tomcat 8(just unpack archive to any folder) http://www.tomcat.apache.org
-3. Add Tomcat to Servers view in Spring Tool Suite
-4. Clone this repository to any folder and import it in STS as File->Import->Existing Maven Project
+2. Install latest version of Spring Tool Suite: http://spring.io/tools
+3. Install Apache Tomcat 8(just unpack archive to any folder) http://www.tomcat.apache.org
+4. Add Tomcat to Servers view in Spring Tool Suite
+5. Clone this repository to any folder and import it in STS as File->Import->Existing Maven Project
 
 #### Database notice:
 Currently default data source is embedded HSQL DB which is initialized during application start, so no additional settings required.
