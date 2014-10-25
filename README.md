@@ -18,6 +18,12 @@
       * <a href="http://www.tutorialspoint.com/jsp/jsp_standard_tag_library.htm">JSTL tutorial</a>
       * <a href="http://www.tomcat.apache.org/">Apache Tomcat</a>
       * <a href="http://getbootstrap.com/css/">Bootstrap </a>
+      
+4. Spring Rest. AngularJs.
+      * <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#mvc-ann-restcontroller">Spring @RestController annotation </a>
+      * <a href="http://www.youtube.com/watch?v=wylViAqNiRA">Designing a REST-ful API using Spring 3 </a>
+      * <a href="https://docs.angularjs.org/guide">AngularJS documentation </a>
+      * <a href="http://campus.codeschool.com/courses/shaping-up-with-angular-js/contents">AngularJS online course </a>
 
 
 ###Getting started with sc-project
