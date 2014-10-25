@@ -20,6 +20,15 @@
       * <a href="http://getbootstrap.com/css/">Bootstrap </a>
 
 
+###Getting started with sc-project
+1. Install Spring Tool Suite http://spring.io/tools
+2. Install Apache Tomcat 8 http://www.tomcat.apache.org
+3. Add installed Tomcat to Servers view in Spring Tool Suite
+4. Clone this repository to any folder and import it in STS as File->Import->Existing Maven Project
+
+#### Database notice:
+Currently default data source is embedded HSQL DB which is initialized during application start, so no additional settings required.
+
 ###Usefull links:
 * Spring documentation http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle 
 * Maven http://maven.apache.org/
