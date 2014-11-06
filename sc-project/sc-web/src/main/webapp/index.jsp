@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 
-<template:page>
+<template:page active="Home">
 	<div class="well">
 		SpringCourse Project Main Page
 	</div>

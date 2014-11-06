@@ -2,7 +2,7 @@
 <%@ taglib prefix="template" tagdir="/WEB-INF/tags/template"%>
 
 
-<template:page>
+<template:page active="Students">
 	<div class="well">
 		<div>
 			<h2>Student Profile</h2>

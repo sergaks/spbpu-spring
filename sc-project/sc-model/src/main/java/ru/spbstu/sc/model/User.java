@@ -4,9 +4,10 @@ import java.util.Date;
 
 public abstract class User extends BaseEntity {
 
-	private String userName;
+	private String username;
 	private String email;
 	private String password;
+	private boolean enabled;
 	private String firstName;
 	private String lastName;
 	private String patronymic;
@@ -14,12 +15,12 @@ public abstract class User extends BaseEntity {
 	private Address address;
 	private String selfInformation;
 
-	public String getUserName() {
-		return userName;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public String getEmail() {
@@ -85,10 +86,18 @@ public abstract class User extends BaseEntity {
 	public void setSelfInformation(String selfInformation) {
 		this.selfInformation = selfInformation;
 	}
+	
+	public boolean isEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
 
 	@Override
 	public String toString() {
-		return "User [userName=" + userName + ", email=" + email
+		return "User [userName=" + username + ", email=" + email
 				+ ", password=" + password + ", firstName=" + firstName
 				+ ", lastName=" + lastName + ", patronymic=" + patronymic
 				+ ", birthDate=" + birthDate + ", address=" + address

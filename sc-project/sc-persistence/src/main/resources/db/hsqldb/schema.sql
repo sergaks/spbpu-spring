@@ -35,7 +35,8 @@ CREATE TABLE addresses (
 
 CREATE TABLE users (
   user_id INT NOT NULL,
-  user_name VARCHAR(20) NULL,
+  username VARCHAR(20) NOT NULL,
+  enabled BOOLEAN DEFAULT TRUE NOT NULL,
   email VARCHAR(40) NULL,
   password VARCHAR(100) NULL,
   first_name VARCHAR(45) NULL,

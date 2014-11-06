@@ -1,11 +1,3 @@
-body.body_effect_bottom {
-	background-image: url(../images/background/bg_top.jpg),
-		url(../images/background/bg_bottom.jpg);
+.footer {
+	height: 50px;
 }
-
-body {
-	background-color: #cccdc9;
-	background-image: url(../images/background/bg_top.jpg),
-		url(../images/background/bg_bottom.jpg);
-}
-/*background-image: url(../../images/background/bg_top.jpg);*/
