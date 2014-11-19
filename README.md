@@ -29,6 +29,14 @@
       * <a href="http://docs.spring.io/spring-security/site/docs/3.2.5.RELEASE/reference/htmlsingle/">Spring Security documentation</a>
       * <a href="https://github.com/spring-projects/spring-security/tree/master/samples">Spring Security samples</a>
 
+6. Spring Data. Apache Solr.
+      * <a href="http://projects.spring.io/spring-data/">Spring Data projects</a>
+      * <a href="http://lucene.apache.org/solr/">Apache SOLR</a>
+      * <a href="http://docs.spring.io/spring-data/solr/docs/1.3.1.RELEASE/reference/html/">Spring Data SOLR</a>
+      * <a href="http://projects.spring.io/spring-data-rest/">Spring Data Rest</a>
+
+7. Spring Integration.      
+     
 
 ###Getting started with sc-project
 1. Install latest <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK 8 </a>
