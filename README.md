@@ -35,8 +35,8 @@
       * <a href="http://docs.spring.io/spring-data/solr/docs/1.3.1.RELEASE/reference/html/">Spring Data SOLR</a>
       * <a href="http://projects.spring.io/spring-data-rest/">Spring Data Rest</a>
 
-7. Spring Integration.      
-     
+7. Spring Integration. Spring Batch.
+
 
 ###Getting started with sc-project
 1. Install latest <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK 8 </a>
