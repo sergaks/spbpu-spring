@@ -1,6 +1,6 @@
-#Spring Course samples and examples for students of St.Petersburg Polytechnic University.
+# Spring Course samples and examples for students of St.Petersburg Polytechnic University.
 
-###Workshops:
+### Workshops:
 1. Intoduction to Spring Framework. Inversion of Control.
     
     * <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#beans">The IoC       container</a>
@@ -38,7 +38,7 @@
 7. Spring Integration. Spring Batch.
 
 
-###Getting started with sc-project
+### Getting started with sc-project
 1. Install latest <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK 8 </a>
 2. Install latest version of Spring Tool Suite: http://spring.io/tools
 3. Install Apache Tomcat 8(just unpack archive to any folder) http://www.tomcat.apache.org
@@ -48,7 +48,7 @@
 #### Database notice:
 Currently default data source is embedded HSQL DB which is initialized during application start, so no additional settings required.
 
-###Usefull links:
+### Usefull links:
 * Spring documentation http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle 
 * Maven http://maven.apache.org/
 * Spring Tool Suite http://spring.io/tools
